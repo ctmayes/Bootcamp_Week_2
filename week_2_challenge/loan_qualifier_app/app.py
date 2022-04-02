@@ -101,7 +101,7 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 
     return bank_data_filtered
 
-def save_csv():
+def save_csv(qualifying_loans):
     
     # Initial attempt at saving filtered data
     csvpath = Path('qualifying_loans.csv')
@@ -134,7 +134,7 @@ def run():
     )
 
     # Save qualifying loans
-    save_qualifying_loans(qualifying_loans)
+    save_csv(qualifying_loans)
 
 
 if __name__ == "__main__":

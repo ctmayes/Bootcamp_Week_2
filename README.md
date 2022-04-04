@@ -1,35 +1,45 @@
 # Bootcamp_Week_2
 
-# Project Title
+# Loan Qualifier Program
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This program is designed to assist our firm's clientele in matching their financial needs with lending opportunties. By creating an avenue for users to input their financial data, this program in turn automates filtering through available lenders to connect both parties and assist in the lending process. If multiple lending options are avaialable, this program allows for an output file for the client to review and make the best choice for their needs.
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+Within this program, we will make use of the following external python modules:
+  -- Sys
+  -- Fire
+  -- Pathlib
+  -- Questionary
+  
+  Additionally, this program was created within a python v3.7 build, and its relevant dependencies.
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+To utilize this program, within your terminal you will have to install the required libraries. Within your terminal, input the following commands:
+
+ -- """pip install fire"""
+ -- """pip install questionary"""
+ -- """pip install pathlib"""
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+To operate this program, open up your terminal of choice and navigate to the directory in which you have downloaded the files within this repository. Utilize the command ""python app.py""" to initate the program within your command line interface. It will prompt you to load the intial loan file, which is stored within your data folder. Next it will ask you to input a series of your financial data points, and will then tell you if/how many qualified loans meet your needs. Finally, it will ask if you wish to save these filtered loans to an output file of your choosing. If you choose not to output them, or if no loans met your needs, it will explain as such and then exit the program. This is the end of the program's functionality. 
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+Colton Mayes ctmayes@gmail.com
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+This code is created for educational purposes, and it usage therein has no commerical application. It is designated as free-use thusly, and shall remain as such.

@@ -22,15 +22,23 @@ Within this program, we will make use of the following external python modules:
 
 To utilize this program, within your terminal you will have to install the required libraries. Within your terminal, input the following commands:
 
- -- '''pip install fire'''
- -- '''pip install questionary'''
- -- '''pip install pathlib'''
+ -- '''python
+ pip install fire
+ '''
+ -- '''python
+ pip install questionary
+ '''
+ -- '''python
+ pip install pathlib
+ '''
 
 ---
 
 ## Usage
 
-To operate this program, open up your terminal of choice and navigate to the directory in which you have downloaded the files within this repository. Utilize the command '''python app.py''' to initate the program within your command line interface. It will prompt you to load the intial loan file, which is stored within your data folder. Next it will ask you to input a series of your financial data points, and will then tell you if/how many qualified loans meet your needs. Finally, it will ask if you wish to save these filtered loans to an output file of your choosing. If you choose not to output them, or if no loans met your needs, it will explain as such and then exit the program. This is the end of the program's functionality. 
+To operate this program, open up your terminal of choice and navigate to the directory in which you have downloaded the files within this repository. Utilize the command '''python
+python app.py
+''' to initate the program within your command line interface. It will prompt you to load the intial loan file, which is stored within your data folder. Next it will ask you to input a series of your financial data points, and will then tell you if/how many qualified loans meet your needs. Finally, it will ask if you wish to save these filtered loans to an output file of your choosing. If you choose not to output them, or if no loans met your needs, it will explain as such and then exit the program. This is the end of the program's functionality. 
 
 ---
 

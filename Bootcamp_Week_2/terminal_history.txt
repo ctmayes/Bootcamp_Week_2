@@ -1,0 +1,4 @@
+*As a note for graders, I did all of my commits and work within the jupyter lab terminal, not base gitbash. A TA has since told me this is the wrong way to do it, and to do it all in bas gitbash. When I load the history through base git, this comes out. And when I now try to load the juypter lab history, its spits out the same. Sorry!!
+
+
+    1  history 50 > terminal_history.txt
